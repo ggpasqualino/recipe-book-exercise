@@ -10,6 +10,6 @@ recipe_book.add_recipe(Recipe.new("brigadeiro", :dessert, "vegetarian", ["conden
 recipe_book.add_recipe(Recipe.new("beijinho", :dessert, "vegetarian", ["condensed milk", "butter", "coconut"]))
 
 p recipe_book.find_named("caponata")
-p recipe_book.find_all_with_ingredient("butter")
-p recipe_book.find_all_for_course(:side)
 p recipe_book.find_all_for_diet("vegan")
+p recipe_book.find_all_for_course(:side)
+p recipe_book.find_all_with_ingredient("butter")

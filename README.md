@@ -23,6 +23,6 @@ according to the following instructions.
 * A RecipeBook should have the following methods:
   * `add_recipe` which receives the recipe as parameter and store it into the attribute `recipes`.
   * `find_named` which receives the name of a recipe as parameter and returns one of the recipes from the attribute `recipes`. If the recipe doesn't exist in the attribute `recipes` you should return `nil`.
-  * `find_all_with_ingredient` which receives the name of an ingredient as parameter and returns a list of recipes from the attribute `recipes`. If there isn't any recipe with this ingredient in the attribute `recipes` you should return an empty array `[]`.
-  * `find_all_for_course` which receives the name of a course as parameter and returns a list of recipes from the attribute `recipes`. If there isn't any recipe for this course in the attribute `recipes` you should return an empty array `[]`.
   * `find_all_for_diet` which receives the name of a diet as parameter and returns a list of recipes from the attribute `recipes`. If there isn't any recipe for this diet in the attribute `recipes` you should return an empty array `[]`.
+  * `find_all_for_course` which receives the name of a course as parameter and returns a list of recipes from the attribute `recipes`. If there isn't any recipe for this course in the attribute `recipes` you should return an empty array `[]`.
+  * `find_all_with_ingredient` which receives the name of an ingredient as parameter and returns a list of recipes from the attribute `recipes`. If there isn't any recipe with this ingredient in the attribute `recipes` you should return an empty array `[]`.
