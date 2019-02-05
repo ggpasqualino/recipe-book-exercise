@@ -2,7 +2,7 @@
 
 Let's create a recipe book!
 You should be able to create an empty recipe book and add new recipes to it.
-Afterwards you should be able to find the recipes in the book according to the recipes attributes.
+Afterwards you should be able to find the recipes in the book according to the recipes' attributes.
 
 There is a file called `main.rb`. The purpose of the exercise is to be able to run this file in your terminal with ruby
 ```
@@ -12,7 +12,7 @@ according to the following instructions.
 
 * Create a class called Recipe. This class must contain the following attributes:
   * `name` The name of the recipe (string).
-  * `course` for which course the recipe should be served, starter, main, side or desert (symbol).
+  * `course` for which course the recipe should be served, starter, main, side or dessert (symbol).
   * `diet` vegan/vegetarian/... (string).
   * `ingredients` The ingredients necessary to prepare the recipe (array).
 
