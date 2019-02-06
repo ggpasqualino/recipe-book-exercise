@@ -4,7 +4,7 @@ Let's create a recipe book!
 You should be able to create an empty recipe book and add new recipes to it.
 Afterwards you should be able to find the recipes in the book according to the recipes' attributes.
 
-There is a file called `main.rb`. The purpose of the exercise is to be able to run this file in your terminal with ruby
+There is a file called [main.rb](main.rb). The purpose of the exercise is to be able to run this file in your terminal with ruby
 ```
 $ruby main.rb
 ```
